@@ -1,0 +1,18 @@
+Project Title: City Improver
+
+Getting started:
+	1.Save the all file in folder.
+	2.Run the new_post.html
+
+1.Home Page :
+		It is home page of city improver.When user click on login/register
+		the login.html page is open after that user account is opened and
+		if user want to see or post any complaint,suggestion,compliment
+		click Add issue button.
+		1.if user click on complaint button all complaint is shown regarding any topic
+		2.if user click on suggestion button all the suggestion regarding
+		   any topic is shown
+		3.if user click on compliment button all the good work is show if any user done
+
+How it work:
+	This web page is run using local storage/session storage on browser.

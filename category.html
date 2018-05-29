@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>category</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="new_post.html">City Improver</a>
+    </div>
+    <ul class="nav navbar-nav">
+	  <li><a onclick="complaintFunction('complaint');" href="category.html">Complaint</a></li>
+      <li><a onclick="complaintFunction('suggestion');" href="category.html">Suggestion</a></li>
+      <li><a onclick="complaintFunction('compliment');" href="category.html">Compliment</a></li>
+    </ul>
+  </div>
+</nav>
+	<center><b id="postname" style="font-size:26px;"></b></center>
+<div class="col-lg-12" id="appendCategory">
+          
+			</div>
+	
+	
+	 <script>
+	function complaintFunction(string)
+	{
+		if(string==='complaint')
+		{
+			localStorage.ctrselect = JSON.stringify(string);
+		}
+		else if(string==='suggestion')
+		{
+			localStorage.ctrselect = JSON.stringify(string);
+		}
+		else if(string==='compliment')
+		{
+			localStorage.ctrselect = JSON.stringify(string);
+		}
+	}
+	</script>
+	
+</body>
+<script src="category.js"></script>
+</html>
